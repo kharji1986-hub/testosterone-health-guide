@@ -22,3 +22,48 @@ p {
 li {
     margin-bottom: 10px;
 }
+
+section {
+    background-color: #20313d;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 12px;
+    border-left: 4px solid #8ee0be;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #52616b;
+}
+
+th {
+    background-color: #304653;
+    color: #8ee0be;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+  
