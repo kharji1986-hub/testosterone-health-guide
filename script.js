@@ -25,3 +25,20 @@ showMoreButton.addEventListener("click", function() {
     showMoreButton.textContent = "Show Less";
   }
 });
+const bmiButton = document.getElementById("calculate-bmi");
+
+bmiButton.addEventListener("click", function() {
+  const weight = Number(document.getElementById("weight").value);
+  const height = Number(document.getElementById("height").value) / 100;
+
+  const result = document.getElementById("bmi-result");
+
+  if (weight <= 0 || height <= 0) {
+    result.textContent = "Please enter valid values.";
+    return;
+  }
+
+  const bmi = weight / (height * height);
+
+  result.textContent = "Your BMI is: " + bmi.toFixed(1);
+});
