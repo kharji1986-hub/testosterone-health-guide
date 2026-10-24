@@ -236,3 +236,37 @@ html {
 .feature-card:hover .feature-image {
     transform: scale(1.05);
 }
+
+/* Light Mode */
+
+body.light-mode {
+    background-color: #f4f7f9;
+    color: #1a202c;
+}
+
+body.light-mode h1,
+body.light-mode h2 {
+    color: #176b56;
+}
+
+body.light-mode section,
+body.light-mode .feature-card {
+    background-color: #ffffff;
+    color: #1a202c;
+}
+
+body.light-mode .hero {
+    background: #e0f2e9;
+}
+
+body.light-mode nav {
+    background-color: #d9eee5;
+}
+
+body.light-mode nav a {
+    color: #176b56;
+}
+
+body.light-mode .footer {
+    color: #334155;
+}
