@@ -322,3 +322,27 @@ body.light-mode .footer {
 #reset-bmi:hover {
   background-color: #495057;
 }
+.bmi-bar {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(
+    to right,
+    #3498db 0%,
+    #2ecc71 30%,
+    #f1c40f 60%,
+    #e74c3c 100%
+  );
+  border-radius: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+
+#bmi-indicator {
+  position: absolute;
+  width: 4px;
+  height: 30px;
+  background: black;
+  top: -5px;
+  left: 0%;
+  transition: left 0.5s ease;
+}
