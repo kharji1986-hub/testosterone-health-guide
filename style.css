@@ -270,3 +270,42 @@ body.light-mode nav a {
 body.light-mode .footer {
     color: #334155;
 }
+/* BMI Calculator */
+
+#bmi-calculator {
+  background-color: #f0f4f8;
+  padding: 25px;
+  margin: 30px auto;
+  border-radius: 12px;
+  max-width: 450px;
+  text-align: center;
+  color: #222;
+}
+
+#bmi-calculator input {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#calculate-bmi {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#calculate-bmi:hover {
+  background-color: #0056b3;
+}
+
+#bmi-result {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
