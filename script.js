@@ -54,3 +54,12 @@ if (bmi < 18.5) {
 
 result.textContent = "Your BMI is: " + bmi.toFixed(1) + " - " + category;
 });
+if (bmi < 18.5) {
+  result.style.color = "#2196F3";
+} else if (bmi < 25) {
+  result.style.color = "#008000";
+} else if (bmi < 30) {
+  result.style.color = "#FF9800";
+} else {
+  result.style.color = "#F44336";
+}
