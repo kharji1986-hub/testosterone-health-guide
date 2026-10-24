@@ -13,3 +13,15 @@ themeButton.addEventListener("click", function() {
     }
 });
 
+const showMoreButton = document.getElementById("show-more-btn");
+const extraInfo = document.getElementById("extra-info");
+
+showMoreButton.addEventListener("click", function() {
+  extraInfo.hidden = !extraInfo.hidden;
+
+  if (extraInfo.hidden) {
+    showMoreButton.textContent = "Show More";
+  } else {
+    showMoreButton.textContent = "Show Less";
+  }
+});
