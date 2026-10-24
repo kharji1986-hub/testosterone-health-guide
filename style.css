@@ -117,3 +117,28 @@ body {
     margin: 40px auto;
     padding: 0 20px;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: #182a35;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #8ee0be;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #8ee0be;
+    color: #101c27;
+}
