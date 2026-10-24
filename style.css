@@ -309,3 +309,16 @@ body.light-mode .footer {
   font-weight: bold;
   margin-top: 20px;
 }
+#reset-bmi {
+  background-color: #6c757d;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#reset-bmi:hover {
+  background-color: #495057;
+}
