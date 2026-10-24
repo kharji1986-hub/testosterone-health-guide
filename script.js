@@ -53,7 +53,6 @@ if (bmi < 18.5) {
 }
 
 result.textContent = "Your BMI is: " + bmi.toFixed(1) + " - " + category;
-});
 if (bmi < 18.5) {
   result.style.color = "#2196F3";
 } else if (bmi < 25) {
@@ -63,6 +62,7 @@ if (bmi < 18.5) {
 } else {
   result.style.color = "#F44336";
 }
+});
 const resetButton = document.getElementById("reset-bmi");
 
 resetButton.addEventListener("click", function() {
