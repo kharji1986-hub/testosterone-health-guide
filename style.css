@@ -67,3 +67,37 @@ th {
     }
 }
   
+
+.hero {
+    text-align: center;
+    padding: 70px 25px;
+    background: linear-gradient(135deg, #20313d, #101c27);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #8ee0be;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: #8ee0be;
+    color: #101c27;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-button:hover {
+    background-color: #ffffff;
+}
