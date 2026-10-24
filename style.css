@@ -228,3 +228,11 @@ html {
     border-radius: 12px;
     margin-bottom: 15px;
 }
+
+.feature-image {
+    transition: transform 0.4s ease;
+}
+
+.feature-card:hover .feature-image {
+    transform: scale(1.05);
+}
