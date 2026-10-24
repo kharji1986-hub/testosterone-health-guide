@@ -63,3 +63,10 @@ if (bmi < 18.5) {
 } else {
   result.style.color = "#F44336";
 }
+const resetButton = document.getElementById("reset-bmi");
+
+resetButton.addEventListener("click", function() {
+  document.getElementById("weight").value = "";
+  document.getElementById("height").value = "";
+  document.getElementById("bmi-result").textContent = "";
+});
