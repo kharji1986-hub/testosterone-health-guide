@@ -76,3 +76,28 @@ resetButton.addEventListener("click", function() {
   document.getElementById("bmi-result").textContent = "";
 });
 document.getElementById("bmi-indicator").style.left = "0%";
+const calorieButton = document.getElementById("calculate-calories");
+
+if (calorieButton) {
+  calorieButton.addEventListener("click", function () {
+    const age = Number(document.getElementById("calorie-age").value);
+    const weight = Number(document.getElementById("calorie-weight").value);
+    const height = Number(document.getElementById("calorie-height").value);
+    const sex = document.getElementById("calorie-sex").value;
+    const activity = Number(document.getElementById("activity-level").value);
+    const result = document.getElementById("calorie-result");
+
+    if (age <= 0 || weight <= 0 || height <= 0) {
+      result.textContent = "Please enter valid age, weight, and height.";
+      return;
+    }
+
+    const bmr = 10 * weight + 6.25 * height - 5 * age
+      + (sex === "male" ? 5 : -161);
+
+    const calories = Math.round(bmr * activity);
+
+    result.textContent =
+      `Estimated daily calories: ${calories} kcal`;
+  });
+}
