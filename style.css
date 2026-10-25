@@ -467,3 +467,13 @@ nav a:visited {
   color: #ffffff;
   background-color: #173b63;
 }
+/* Improve scientific reference link contrast */
+#references a,
+#references a:visited {
+  color: #064b80;
+  text-decoration: underline;
+}
+
+#references {
+  background-color: #ffffff;
+}
