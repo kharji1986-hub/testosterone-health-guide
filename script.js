@@ -39,7 +39,12 @@ bmiButton.addEventListener("click", function() {
   }
 
   const bmi = weight / (height * height);
+const indicator = document.getElementById("bmi-indicator");
 
+if (indicator) {
+  const position = Math.max(0, Math.min(100, ((bmi - 10) / 30) * 100));
+  indicator.style.left = position + "%";
+}
  let category;
 
 if (bmi < 18.5) {
@@ -71,9 +76,3 @@ resetButton.addEventListener("click", function() {
   document.getElementById("bmi-result").textContent = "";
 });
 
-const indicator = document.getElementById("bmi-indicator");
-
-if (indicator) {
-  const position = Math.max(0, Math.min(100, ((bmi - 10) / 30) * 100));
-  indicator.style.left = position + "%";
-}
