@@ -75,4 +75,4 @@ resetButton.addEventListener("click", function() {
   document.getElementById("height").value = "";
   document.getElementById("bmi-result").textContent = "";
 });
-
+document.getElementById("bmi-indicator").style.left = "0%";
