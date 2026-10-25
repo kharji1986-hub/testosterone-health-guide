@@ -472,3 +472,25 @@ nav a:visited {
 #references a:focus-visible {
   color: #002b4d;
 }
+#calorie-calculator {
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 12px;
+}
+
+#calorie-calculator input,
+#calorie-calculator select {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 1px solid #888;
+  border-radius: 6px;
+}
+
+#calorie-result {
+  margin-top: 15px;
+  font-weight: bold;
+}
