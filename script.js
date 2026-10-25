@@ -113,3 +113,27 @@ if (resetCaloriesButton) {
     document.getElementById("calorie-result").textContent = "";
   });
 }
+const convertButton = document.getElementById("convert-testosterone");
+
+if (convertButton) {
+  convertButton.addEventListener("click", function () {
+    const input = document.getElementById("testosterone-value");
+    const unit = document.getElementById("testosterone-unit").value;
+    const result = document.getElementById("testosterone-result");
+
+    const value = Number(input.value);
+
+    if (input.value.trim() === "" || !Number.isFinite(value) || value < 0) {
+      result.textContent = "Please enter a valid testosterone level.";
+      return;
+    }
+
+    if (unit === "to-nmol") {
+      result.textContent =
+        `${(value * 0.0347).toFixed(2)} nmol/L`;
+    } else {
+      result.textContent =
+        `${(value / 0.0347).toFixed(2)} ng/dL`;
+    }
+  });
+}
