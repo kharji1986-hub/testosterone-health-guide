@@ -380,3 +380,18 @@ nav a {
 nav a:hover {
   background-color: #0f3460;
 }
+@media (max-width: 600px) {
+  nav {
+    gap: 5px;
+    padding: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
