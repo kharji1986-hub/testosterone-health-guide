@@ -359,3 +359,24 @@ body.light-mode .footer {
   flex: 1;
   text-align: center;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  background-color: #16213e;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #0f3460;
+}
