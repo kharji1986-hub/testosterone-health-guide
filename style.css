@@ -426,3 +426,10 @@ main a {
 main a:hover {
   background-color: #217dbb;
 }
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #ffcc00;
+  outline-offset: 3px;
+}
