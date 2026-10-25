@@ -533,3 +533,26 @@ nav a:visited {
 #testosterone-tests p {
   line-height: 1.8;
 }
+/* FAQ Section */
+#faq {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+#faq details {
+  margin-bottom: 12px;
+  padding: 15px;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+#faq summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#faq details p {
+  margin-top: 12px;
+  line-height: 1.7;
+}
