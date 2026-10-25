@@ -556,3 +556,31 @@ nav a:visited {
   margin-top: 12px;
   line-height: 1.7;
 }
+/* Responsive navigation */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Mobile navigation */
+@media (max-width: 600px) {
+  nav {
+    gap: 8px;
+    padding: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 9px 12px;
+  }
+}
