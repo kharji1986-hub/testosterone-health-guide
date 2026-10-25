@@ -395,3 +395,20 @@ nav a:hover {
     padding: 15px;
   }
 }
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  line-height: 1.8;
+}
+
+main h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #3498db;
+}
+
+main h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
