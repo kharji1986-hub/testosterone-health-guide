@@ -448,32 +448,27 @@ select:focus-visible {
   color: #ffffff;
   font-weight: bold;
 }
-#references {
-  background-color: #ffffff;
-  color: #1a1a1a;
-}
-
-#references a {
-  color: #064b80;
-  text-decoration: underline;
-}
-
-#references a:hover {
-  color: #003355;
-}
-/* Improve navigation link contrast */
+/* Navigation links */
 nav a,
 nav a:visited {
   color: #ffffff;
   background-color: #173b63;
 }
-/* Improve scientific reference link contrast */
+
+/* Scientific references */
+#references {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
 #references a,
 #references a:visited {
-  color: #064b80;
+  color: #003b66;
+  background-color: #ffffff;
   text-decoration: underline;
 }
 
-#references {
-  background-color: #ffffff;
+#references a:hover,
+#references a:focus-visible {
+  color: #002b4d;
 }
