@@ -461,3 +461,9 @@ select:focus-visible {
 #references a:hover {
   color: #003355;
 }
+/* Improve navigation link contrast */
+nav a,
+nav a:visited {
+  color: #ffffff;
+  background-color: #173b63;
+}
