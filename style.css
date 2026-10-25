@@ -433,3 +433,13 @@ select:focus-visible {
   outline: 3px solid #ffcc00;
   outline-offset: 3px;
 }
+#bmi-calculator {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+#bmi-calculator h2,
+#bmi-calculator p,
+#bmi-calculator label {
+  color: #1a1a1a;
+}
