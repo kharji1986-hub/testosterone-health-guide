@@ -494,3 +494,27 @@ nav a:visited {
   margin-top: 15px;
   font-weight: bold;
 }
+/* Testosterone Converter */
+#testosterone-converter {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+#testosterone-converter input,
+#testosterone-converter select {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 8px 0 16px;
+  border: 1px solid #888;
+  border-radius: 6px;
+}
+
+#testosterone-result {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
