@@ -518,3 +518,18 @@ nav a:visited {
   font-size: 20px;
   font-weight: bold;
 }
+/* Testosterone Blood Tests */
+#testosterone-tests {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+#testosterone-tests h3 {
+  margin-top: 24px;
+}
+
+#testosterone-tests p {
+  line-height: 1.8;
+}
