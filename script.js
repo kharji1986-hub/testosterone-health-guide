@@ -137,3 +137,12 @@ if (convertButton) {
     }
   });
 }
+const resetTestosteroneButton = document.getElementById("reset-testosterone");
+
+if (resetTestosteroneButton) {
+  resetTestosteroneButton.addEventListener("click", function () {
+    document.getElementById("testosterone-value").value = "";
+    document.getElementById("testosterone-unit").value = "to-nmol";
+    document.getElementById("testosterone-result").textContent = "";
+  });
+}
