@@ -35,6 +35,25 @@
 
   <h3>Zinc</h3>
   <p>Supports normal testosterone production.</p>
+  <section class="protein-calculator">
+  <h2>Daily Protein Calculator</h2>
+  <p>Estimate your daily protein needs based on your weight and activity level.</p>
+
+  <label for="protein-weight">Your Weight (kg):</label>
+  <input type="number" id="protein-weight" min="1" placeholder="Enter your weight">
+
+  <label for="activity-level">Activity Level:</label>
+  <select id="activity-level">
+    <option value="0.8">Sedentary</option>
+    <option value="1.2">Lightly Active</option>
+    <option value="1.6">Moderately Active</option>
+    <option value="2.0">Very Active</option>
+  </select>
+
+  <button id="calculate-protein" type="button">Calculate Protein</button>
+
+  <p id="protein-result" aria-live="polite"></p>
+</section>
 </main>
 
 <footer>
