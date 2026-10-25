@@ -101,3 +101,15 @@ if (calorieButton) {
       `Estimated daily calories: ${calories} kcal`;
   });
 }
+const resetCaloriesButton = document.getElementById("reset-calories");
+
+if (resetCaloriesButton) {
+  resetCaloriesButton.addEventListener("click", function () {
+    document.getElementById("calorie-age").value = "";
+    document.getElementById("calorie-weight").value = "";
+    document.getElementById("calorie-height").value = "";
+    document.getElementById("calorie-sex").value = "male";
+    document.getElementById("activity-level").value = "1.2";
+    document.getElementById("calorie-result").textContent = "";
+  });
+}
