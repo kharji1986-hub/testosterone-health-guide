@@ -409,6 +409,31 @@
 </button>
   <p id="calorie-result" role="status" aria-live="polite"></p>
 </section> 
+    <section id="testosterone-converter">
+  <h2>Testosterone Level Converter</h2>
+  <p>Convert total testosterone levels between ng/dL and nmol/L.</p>
+
+  <label for="testosterone-value">Testosterone Level:</label>
+  <input type="number" id="testosterone-value"
+         min="0" step="any">
+
+  <label for="testosterone-unit">Conversion:</label>
+  <select id="testosterone-unit">
+    <option value="to-nmol">ng/dL to nmol/L</option>
+    <option value="to-ng">nmol/L to ng/dL</option>
+  </select>
+
+  <button id="convert-testosterone" type="button">
+    Convert
+  </button>
+
+  <p id="testosterone-result" role="status" aria-live="polite"></p>
+
+  <p>
+    This tool converts units only. It does not diagnose
+    testosterone deficiency.
+  </p>
+</section>
     <footer class="footer">
     <p>© 2026 Testosterone Health Guide. All rights reserved.</p>
     <p>For educational purposes only. Not medical advice.</p>
