@@ -443,3 +443,21 @@ select:focus-visible {
 #bmi-calculator label {
   color: #1a1a1a;
 }
+#calculate-bmi {
+  background-color: #145a86;
+  color: #ffffff;
+  font-weight: bold;
+}
+#references {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+#references a {
+  color: #064b80;
+  text-decoration: underline;
+}
+
+#references a:hover {
+  color: #003355;
+}
